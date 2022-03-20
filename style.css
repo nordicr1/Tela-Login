@@ -1,0 +1,167 @@
+body {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: #264eca;
+  font-family: "Montserrat";
+  background-image: url(./img/digital-art-neon-bubbles.jpg);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1903px;
+  height: 80px;
+  background: rgb(7, 18, 27);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 18, 27, 0.8099614845938375) 0%,
+    rgba(2, 8, 20, 1) 100%
+  );
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  border-radius: 0 0 35px 35px;
+}
+
+header ul {
+  display: flex;
+  align-content: center;
+  gap: 45px;
+}
+
+ul li:hover {
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+ul img {
+  width: 50px;
+  height: 45px;
+}
+
+ul img:hover {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  width: 1903px;
+  height: 80px;
+  font-weight: bolder;
+  background: rgb(7, 18, 27);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 18, 27, 0.8099614845938375) 0%,
+    rgba(2, 8, 20, 1) 100%
+  );
+  border-radius: 35px 35px 0 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 83vh;
+}
+
+main .box1 {
+  width: 400px;
+  height: 498px;
+  background-color: transparent;
+  border-radius: 80px 0 80px 0;
+  border: 8px solid white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 img {
+  margin-left: 130px;
+  width: 140px;
+  height: 135px;
+}
+
+form input {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 25px;
+  background-color: transparent;
+  border: 2px solid white;
+  font-family: "Montserrat";
+  font-weight: 300 lighter;
+  color: white;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  line-height: 45px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+small:hover {
+  cursor: pointer;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 60px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #2148c0;
+  font-weight: 600;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+input:hover {
+  color: white;
+  border: 2px solid white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  position: relative;
+  top: 10px;
+  box-shadow: none;
+}
+
+main div caption {
+  margin-top: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
