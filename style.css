@@ -4,9 +4,7 @@ body {
   background-color: #264eca;
   font-family: "Montserrat";
   background-image: url(./img/digital-art-neon-bubbles.jpg);
-  object-fit: cover;
-
-  animation: zoom 2s;
+  
 }
 
 .header {
