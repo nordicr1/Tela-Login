@@ -22,6 +22,9 @@ body {
   font-size: 40px;
   font-weight: 800;
   border-radius: 0 0 35px 35px;
+
+  animation: bounceInLeft;
+  animation-duration: 1.5s;
 }
 
 header ul {
@@ -78,6 +81,14 @@ main .box1 {
   background-color: transparent;
   border-radius: 80px 0 80px 0;
   border: 8px solid white;
+
+  animation: bounceInDown;
+  animation-duration: 3.2s;
+}
+
+.footer{
+  animation: bounceInRight;
+  animation-duration: 4.5s;
 }
 
 form {
@@ -91,6 +102,8 @@ form {
   margin-left: 130px;
   width: 140px;
   height: 135px;
+
+  
 }
 
 form input {
